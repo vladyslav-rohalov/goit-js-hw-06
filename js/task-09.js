@@ -8,5 +8,5 @@ const areaBgRef = document.querySelector('.color');
 buttonChangeColorRef.addEventListener('click', onPressButton);
 
 function onPressButton() {
-  areaBgRef.style.backgroundColor = getRandomHexColor();
+  areaBgRef.innerHTML = getRandomHexColor();
 }
